@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Table</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border-color: red;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        <!-- 1-row , 4columns -->
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Address</th>
+          <th>Point</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bobo</td>
+          <td>bobo@gmail.com</td>
+          <td>0934567899</td>
+          <td>Yangon</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>mgmg</td>
+          <td>mgmg@gmail.com</td>
+          <td>092345678</td>
+          <td>Bago</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>nono</td>
+          <td>nono@gmail.com</td>
+          <td>092345678</td>
+          <td>MDY</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>popo</td>
+          <td>popo@gmail.com</td>
+          <td>092345678</td>
+          <td>Bago</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Total Point</td>
+          <td>40</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
